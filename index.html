@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet"> 
   
   <!-- 'Montserrat', sans-serif -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
@@ -13,10 +13,14 @@
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
 </head>
-<body>
+<body class="bg-main">
 
-  <main class="template relative w-full h-[100vh] bg-custom">
+  <main class="template relative w-full h-[100vh] px-2 pt-[60px] bg-[url('/assets/images/bg-top.svg')] bg-no-repeat bg-right-top font-Montserrat">
+     <div class="bg-[url('/assets/images/bg-bottom.svg')]  z-[1] bg-no-repeat bg-left-bottom w-[100%] h-[100%] absolute bottom-0 left-0"></div>
 
+     <div class="content relative  z-[4]">
+     <h2 class="text-center text-[30px] font-bold text-heading-c">Our Pricing</h2>
+     </div>
   </main>
 
 </body>
