@@ -15,13 +15,27 @@
 </head>
 <body class="bg-main">
 
-  <main class="template relative w-full h-[100vh] px-2 pt-[60px] bg-[url('/assets/images/bg-top.svg')] bg-no-repeat bg-right-top font-Montserrat">
-     <div class="bg-[url('/assets/images/bg-bottom.svg')]  z-[1] bg-no-repeat bg-left-bottom w-[100%] h-[100%] absolute bottom-0 left-0"></div>
+  <main class="template relative w-full h-[100vh] px-2 pt-[60px] bg-[url(assets/images/bg-top.svg')] bg-no-repeat bg-right-top font-Montserrat">
 
-     <div class="content relative  z-[4]">
-     <h2 class="text-center text-[30px] font-bold text-heading-c">Our Pricing</h2>
-     </div>
+    <div class="content relative z-[4]">
+      <h2 class="text-center text-[30px] font-bold text-heading-c">Our Pricing</h2>
+        <div class="check w-full mt-8  flex justify-center items-center gap-x-3.5">
+        <p class="annually text-navigasi-c">Annually</p>
+        <input type="checkbox" class="hidden" name="" id="check">
+        <label for="check" class="input-check relative cursor-pointer w-[55px] rounded-full overflow-hidden p-[5px] h-[32px] bg-gradient-to-r from-gradient-check1 to-gradient-check2 transition-all duration-300 hover:opacity-[0.6]">
+          <div  class="circle h-[100%] rounded-full  transition-all duration-300  w-[50%] bg-white"></div>
+        </label>
+        <p class="monthly text-navigasi-c">
+          Monthly
+        </p>
+        </div>
+    </div>
+
+
+     <div class="bg-[url('/assets/images/bg-bottom.svg')]  z-[1] bg-no-repeat bg-left-bottom w-[100%] h-[100%] absolute bottom-0 left-0"></div>
   </main>
 
+
+  <script src="./assets/index.js"></script>
 </body>
 </html>
