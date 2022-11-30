@@ -1,0 +1,15 @@
+{
+  "name": "pricing-component-with-toggle-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Pricing component with toggle coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./assets/input.css -o ./assets/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
