@@ -21,10 +21,10 @@ let textTotal = {
 label.addEventListener('click',()=>{
         if(!inputCheck.checked){
         circle.classList.remove('translate-x-[100%]')
-        textTotal.changeTo('19.99','24.99','39.99')
+        textTotal.changeTo('199.99','249.99','399.99')
     }else{
         circle.classList.add('translate-x-[100%]')
-        textTotal.changeTo('199.99','249.99','399.99')
+        textTotal.changeTo('19.99','24.99','39.99')
     }
 })
 
