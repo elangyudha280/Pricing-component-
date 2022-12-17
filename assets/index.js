@@ -19,15 +19,15 @@ let textTotal = {
 }
 
 label.addEventListener('click',()=>{
-    if(!inputCheck.checked){
-        circle.classList.add('translate-x-[100%]')
+        if(!inputCheck.checked){
+        circle.classList.remove('translate-x-[100%]')
         textTotal.changeTo('19.99','24.99','39.99')
     }else{
-        circle.classList.remove('translate-x-[100%]')
+        circle.classList.add('translate-x-[100%]')
         textTotal.changeTo('199.99','249.99','399.99')
     }
 })
 
 window.addEventListener('load',()=>{
-    inputCheck.checked = false
+    inputCheck.checked = true
 })
